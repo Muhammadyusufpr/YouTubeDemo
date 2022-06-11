@@ -1,0 +1,27 @@
+###
+POST http://localhost:8080/profile/adm/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNjUzOTA3NDY3LCJleHAiOjE2NTM5MTEwNjcsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiQURNSU4ifQ.rOZVZcWyJw_umL6IPkJSpv46cq9dyAb31_jh7RwXhsQ
+
+{
+  "name": "Toshmat",
+  "surname": "Toshmatov",
+  "email": "ToshmatAli@gmail.com",
+  "password": "asdfg5432ed"
+}
+
+<> 2022-05-30T154632.200.json
+<> 2022-05-30T154509.200.json
+
+###
+GET http://localhost:8080/profile/get/1
+
+
+
+
+
+
+
+
+
+

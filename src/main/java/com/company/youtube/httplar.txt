@@ -1,0 +1,30 @@
+###
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+
+{
+  "name": "Vali",
+  "surname": "Valiyev",
+  "email": "Alish@gmail.com",
+  "password": "1234567987"
+}
+
+###
+POST http://localhost:8080/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="photo.jpg"
+C:\photos\windiws.jpg
+
+###
+POST http://localhost:8080/profile/create
+Content-Type: application/json
+
+{
+  "name": "Vali",
+  "surname": "Valiyev",
+  "email": "muhammadusufgapirov@gmail.com",
+  "password": "1234567987"
+}
+

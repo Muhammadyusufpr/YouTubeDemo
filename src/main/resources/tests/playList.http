@@ -1,0 +1,12 @@
+
+###
+POST http://localhost:8080/playList/public/be0a47e1-edb6-4ca5-a259-6e877bd9c134
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0IiwiaWF0IjoxNjUzOTExNjIxLCJleHAiOjE2NTM5MTUyMjEsImlzcyI6Im1hemdpIHByb2R1Y3Rpb24iLCJyb2xlIjoiVVNFUiJ9.Zh70BBmh7MEkP1Vd9VKtvkgWjnj23djAvTIp8_Txk7Y
+
+{
+  "name": "java",
+  "description": "videos about java backend",
+  "orderNum": 3
+}
+
